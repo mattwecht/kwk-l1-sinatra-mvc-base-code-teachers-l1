@@ -11,7 +11,8 @@ class MyApp < Sinatra::Base
     erb:index
   end
   
-  
+  get '/hello/:name' do
+end
   
   
   
