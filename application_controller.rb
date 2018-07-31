@@ -13,6 +13,7 @@ class MyApp < Sinatra::Base
   
   get '/hello/:name' do
     @yourname = params
+    
   end
   
   
